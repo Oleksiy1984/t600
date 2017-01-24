@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - t650@localhost" uuid="297fae60-cf63-4235-a056-908d1d0f208f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="t650">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="information_schema"/>
+      <table id="3" parent="1" name="volume"/>
+      <table id="4" parent="1" name="proverka"/>
+      <table id="5" parent="1" name="t600650"/>
+      <column id="6" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="7" parent="3" name="m3">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,3)|0</data-type>
+      </column>
+      <key id="8" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="9" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="10" parent="4" name="s1">
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <column id="11" parent="4" name="s2">
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <key id="12" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="13" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="14" parent="5" name="t600">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,3)|0</data-type>
+      </column>
+      <column id="15" parent="5" name="t650">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,3)|0</data-type>
+      </column>
+      <key id="16" parent="5" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
