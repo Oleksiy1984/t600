@@ -17,6 +17,7 @@ public class App
 {
     public static void main( String[] args )
     {
+        //
         SessionFactory factory = null;
         Session session = null;
         org.hibernate.Transaction tx = null;
